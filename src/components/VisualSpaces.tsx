@@ -19,7 +19,7 @@ export default function VisualSpaces() {
   const [selectedImg, setSelectedImg] = useState<{ src: string, alt: string, link: string } | null>(null);
 
   return (
-    <section>
+    <section id="visual" className="scroll-mt-24">
       <h2 className="text-[0.9rem] tracking-[4px] uppercase border-b border-border-primary pb-2 mb-6 text-text-accent font-normal">
         {t('section.visual')}
       </h2>

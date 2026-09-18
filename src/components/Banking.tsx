@@ -49,7 +49,7 @@ export default function Banking() {
   const { t } = useI18n();
 
   return (
-    <section>
+    <section id="bank" className="scroll-mt-24">
       <h2 className="text-[0.9rem] tracking-[4px] uppercase border-b border-border-primary pb-2 mb-6 text-text-accent font-normal">
         {t('section.bank')}
       </h2>

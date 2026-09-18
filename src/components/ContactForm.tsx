@@ -47,7 +47,7 @@ export default function ContactForm() {
   };
 
   return (
-    <section>
+    <section id="contact" className="scroll-mt-24">
       <h2 className="text-[0.9rem] tracking-[4px] uppercase border-b border-border-primary pb-2 mb-6 text-text-accent font-normal">
         {t('contact.title')}
       </h2>
