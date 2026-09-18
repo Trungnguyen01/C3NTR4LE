@@ -1,0 +1,8 @@
+{
+  "name": "Trung Nguyen Quang Portfolio",
+  "description": "Portfolio and Creative Space of Nguyen Quang Trung",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

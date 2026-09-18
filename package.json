@@ -1,0 +1,14 @@
+{
+  "name": "nqt1506-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio & Creative Space of Nguyen Quang Trung",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js",
+    "build": "echo 'No build step required'"
+  },
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
