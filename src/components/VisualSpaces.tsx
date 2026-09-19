@@ -3,15 +3,15 @@ import { useI18n } from '../contexts/I18nContext';
 import { motion, AnimatePresence } from 'framer-motion';
 
 const images = [
-  { src: '/image/hoa_ly.jpg', alt: 'HOA LY', link: 'https://www.instagram.com/p/DYux0f6kkmI/?img_index=1' },
-  { src: '/image/cua_so.jpg', alt: 'CỬA SỔ', link: 'https://www.instagram.com/p/DX16_bUE_7w/?img_index=1' },
-  { src: '/image/ngon_nui.jpg', alt: 'NGỌN NÚI', link: 'https://www.instagram.com/p/DV6GKaXEu8A/?img_index=1' },
-  { src: '/image/anh_trang.jpg', alt: 'ÁNH TRĂNG', link: 'https://www.instagram.com/p/DVn_uFFEpWE/?img_index=1' },
-  { src: '/image/ruy_bang.jpg', alt: 'RUY BĂNG', link: 'https://www.instagram.com/p/DUONYo8Ejdc/?img_index=1' },
-  { src: '/image/hoa_trang.jpg', alt: 'HOA TRẮNG', link: 'https://www.instagram.com/p/DSz2LuLEjEK/?img_index=1' },
-  { src: '/image/hoa_don.jpg', alt: 'HOA ĐƠN', link: 'https://www.instagram.com/p/DRXZTwnkvzC/?img_index=1' },
-  { src: '/image/buom_dem.jpg', alt: 'BƯỚM ĐÊM', link: 'https://www.instagram.com/p/DQT5rESkqgl/?img_index=1' },
-  { src: '/image/thien_nga.jpg', alt: 'THIÊN NGA', link: 'https://www.instagram.com/p/DP_moAJEkgu/?img_index=1' }
+  { src: './image/hoa_ly.jpg', alt: 'HOA LY', link: 'https://www.instagram.com/p/DYux0f6kkmI/?img_index=1' },
+  { src: './image/cua_so.jpg', alt: 'CỬA SỔ', link: 'https://www.instagram.com/p/DX16_bUE_7w/?img_index=1' },
+  { src: './image/ngon_nui.jpg', alt: 'NGỌN NÚI', link: 'https://www.instagram.com/p/DV6GKaXEu8A/?img_index=1' },
+  { src: './image/anh_trang.jpg', alt: 'ÁNH TRĂNG', link: 'https://www.instagram.com/p/DVn_uFFEpWE/?img_index=1' },
+  { src: './image/ruy_bang.jpg', alt: 'RUY BĂNG', link: 'https://www.instagram.com/p/DUONYo8Ejdc/?img_index=1' },
+  { src: './image/hoa_trang.jpg', alt: 'HOA TRẮNG', link: 'https://www.instagram.com/p/DSz2LuLEjEK/?img_index=1' },
+  { src: './image/hoa_don.jpg', alt: 'HOA ĐƠN', link: 'https://www.instagram.com/p/DRXZTwnkvzC/?img_index=1' },
+  { src: './image/buom_dem.jpg', alt: 'BƯỚM ĐÊM', link: 'https://www.instagram.com/p/DQT5rESkqgl/?img_index=1' },
+  { src: './image/thien_nga.jpg', alt: 'THIÊN NGA', link: 'https://www.instagram.com/p/DP_moAJEkgu/?img_index=1' }
 ];
 
 export default function VisualSpaces() {

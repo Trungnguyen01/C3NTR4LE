@@ -40,7 +40,7 @@ const Header = ({ activeSection, scrollToSection }: { activeSection: string, scr
 
       <div className="relative w-32 h-32 mx-auto mb-6 group cursor-pointer">
         <img 
-          src="/image/avatar.jpg" 
+          src="./image/avatar.jpg" 
           alt="Nguyen Quang Trung" 
           className="w-full h-full rounded-full object-cover border border-border-primary grayscale contrast-[105%] transition-all duration-500 ease-in-out group-hover:grayscale-0 group-hover:contrast-100 group-hover:scale-105 group-hover:border-border-hover"
         />
@@ -59,7 +59,7 @@ const Header = ({ activeSection, scrollToSection }: { activeSection: string, scr
         </a>
       </div>
 
-      <nav className="sticky top-4 z-30 flex flex-wrap justify-center items-center gap-1 sm:gap-2 max-w-[640px] mx-auto mt-6 py-3 px-2 border border-border-primary/80 bg-bg-card/90 backdrop-blur-md shadow-lg">
+      <nav className="sticky top-4 z-30 flex flex-wrap justify-center items-center gap-1 sm:gap-2 max-w-[640px] mx-auto mt-6 py-3 px-3 sm:px-6 rounded-xl sm:rounded-full border border-border-primary/80 bg-bg-card/90 backdrop-blur-md shadow-lg">
         {tabs.map(tab => (
           <button 
             key={tab.id}
